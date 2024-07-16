@@ -1,0 +1,167 @@
+/* réinitialisation navigateur */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    box-sizing: border-box;
+    top: 0px;
+    position: sticky;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    background-color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.nav_menu {
+float: left;
+padding-top: 10px;
+display: flex;
+box-sizing: border-box;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+padding-left: 25px;
+padding-right: 25px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.nav_menu a {
+    text-decoration: none;
+    color: #6e6e6f;
+    
+}
+
+.nav_menu a:hover {
+    border-block-start: 1rem solid;
+    border-width: 40px;
+    border-color: #6e6e6f;
+    color:#3491b2;
+    font-size: large;
+}
+
+.carousel_principal{
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.slogan_carousel{
+    width: 30%;
+    height: 23%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    box-sizing: border-box;
+    border: #3491b2 1px solid;
+    position: absolute;
+    top: 255px;
+    left: 280px;
+    z-index: 2;
+}
+
+.carousel {
+    display: flex;
+    position: relative;
+    z-index:1;
+    right: 0px;
+    bottom: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.img_caroussel1 {
+    width: 100%;
+    
+}
+.img_caroussel2 {
+    width: 100%;
+}
+
+h1, h2, h3{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.slogan_carousel h1,p{
+    color: rgb(255, 255, 255);
+}
+
+.slogan_carousel h1{
+    font-size: 2.1rem;
+}
+
+.slogan_carousel p{
+    font-size: 1.1rem;
+}
+
+
+#titre_carousel {
+    color: #3491b2;
+}
+
+.bouton_infos{
+    border: 0;
+    line-height: 3.2;
+    border-radius: 10%;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    background-color: #3491b2;
+    font-size: x-small;
+    padding: 0 10px;
+}
+
+.bouton_infos a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a, p, label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.carousel-controls button {
+    border: none;
+    background-color : rgba(0,0,0,0);
+}
+
+.carousel-controls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    position: absolute;
+    z-index: 3;
+    top: 264px;
+    right: 5px;
+    left: 5px;
+}

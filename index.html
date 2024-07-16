@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style_header.css">
+    <link rel="stylesheet" href="styles/style_main.css">
+    <script src="https://kit.fontawesome.com/310567fadf.js" crossorigin="anonymous"></script>
+    <title>Webagency</title>
+</head>
+<body>
+    <header>
+        <nav class="nav_menu">
+            <img src="assets/images/logo.png" alt="image du logo">
+            <div id="liens_nav">
+                <ul>
+                    <li><a href="#Accueil">Accueil</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Portofolio">Portofolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+        <section class="carousel_principal">
+            <article class="slogan_carousel">
+                <h1><span id="titre_carousel">WEBAGENCY </span>: L'AGENCE DE TOUS VOS PROJETS !</h1>
+                <p>Vous avez un projet web ? la Webagency vous aide à le réaliser.</p>
+                <button class="bouton_infos" name="button" type="button"><a href="#Contact">plus d'infos</a></button>
+            </article>
+
+            <!-- Élément carousel --> 
+            <div class="carousel"> 
+                <!-- Conteneur interne pour les diapositives --> 
+                <div class="carousel-inner"> 
+                    <!-- Première diapositive --> 
+                    <div class="slide"> 
+                        <!-- Image de la première diapositive -->
+                        <img class="img_caroussel1" src="assets/images/slider/bg1.jpg" alt="image 1">
+                        <div  class="carousel-controls" > 
+                            <!-- Bouton pour passer à la diapositive précédente --> 
+                            <button  id = "prev" ><i class="fa-solid fa-play fa-rotate-180" style="color: #babbbd;"></i></button > 
+                            <!-- Bouton pour passer à la diapositive suivante --> 
+                            <button  id = "next" ><i class="fa-solid fa-play" style="color: #babbbd;"></i></button > 
+                        </div > 
+                    </div > 
+                    <!--
+                        Deuxième diapositive 
+                    <div class="slide"> 
+                        Image de la deuxième diapositive 
+                        <img class="img_caroussel2" src="assets/images/slider/bg2.jpg" alt="Image 2"> 
+                    </div > 
+                    -->
+            </div >  
+        </section>
+    <main>
+        <section class="Services">
+            <article class="Services1">
+                <h1>Nos Services</h1>
+                <div class="Trait_deco">
+                    <div class="Rond_Trait"></div>
+                </div>
+                <p> De taille humaine, notre agence vous accompagne du début à la fin de votre projet.
+                    Nos experts vous aident à optimiser l'expérience utilisateu et tirer le meilleur
+                    potentiel de chaque support, du web au mobile.
+                </p>
+            </article>
+            <article class="Services2">
+                <div class="Service_Pc">
+                    <img src="assets/images/main-feature.png" alt="photo ecran ordinateur">
+                </div>
+                <div class="Container_Service_Design">    
+                    <div class="Rond_Service_Design">
+                        <div class="Service_animation">
+                            <div class="Cercle">
+                                <i class="fa-solid fa-chart-line"style="color: #3491b2;"></i>
+                            </div>
+                            <div class="Rond_anime">
+                                <div class="Cercle2"></div>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>
+                                <H3>UX design</H3>
+                                <p>Une équipe passionnée qui place l'utilisateur final au centre de 
+                                    sa démarche pour une technologie plus humaine
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="Rond_Service_Design">
+                        <div class="Service_animation">
+                            <div class="Cercle">
+                                <i class="fa-solid fa-cubes" style="color: #3491b2;"></i>
+                            </div>
+                            <div class="Rond_anime">
+                                <div class="Cercle2"></div>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>
+                                <H3>UI design</H3>
+                                <p>Une interface optimisée qui permet à votre site web de rester à la
+                                    page au gré des évolutions techniques et des nouveaux usages.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="Rond_Service_Design">
+                        <div class="Service_animation">
+                            <div class="Cercle">
+                                <i class="fa-solid fa-chart-pie" style="color: #3491b2;"></i>
+                            </div>
+                            <div class="Rond_anime">
+                                <div class="Cercle2"></div>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>
+                                <H3>SEO</H3>
+                                <p>Nos experts en référencement vous permettent d'améliorer le positionnement
+                                    de votre site afin d'augmenter votre conversation.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="Portofolio">
+            <article class="Projet1">
+                <h1>NOS PROJETS</h1>
+                <div class="Trait_deco">
+                    <div class="Rond_Trait"></div>
+                </div>
+                <p>Beaucoup d'entreprises nous ont fais confiance pour leur projets ! Découvrez
+                    une selection de nos réalisations tendances, modernes et innovantes. 
+                </p>
+            </article>
+
+            <div class="Nav_Projets">
+                <nav id="nav_projets">
+                    <ul>
+                        <li><a href="">Tous</a></li>
+                        <li><a href="">Création</a></li>
+                        <li><a href="">Corporate</a></li>
+                        <li><a href="">Portfolio</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <article id="Projet2">
+                <figure>
+                    <a href="#"><img class="img_projet2" src="assets/images/portfolio/01.jpg" alt="image lunettes" /></a>
+                    <figcaption>
+                        <div class="icon_img">
+                            <i class="fa-solid fa-face-grin-stars" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="Marq_images">
+                            <H3>Vu..J'avais pas vu</H3>
+                            <p>Agence de Relooking</p>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="#"><img class="img_projet2" src="assets/images/portfolio/02.jpg" alt="image lunettes" /></a>
+                    <figcaption>
+                        <div class="icon_img">
+                            <i class="fa-solid fa-face-grin-stars" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="Marq_images">
+                            <H3>Pose Lapin</H3>
+                            <p>Agence créatrice d'alibi</p>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="#"><img class="img_projet2" src="assets/images/portfolio/03.jpg" alt="image lunettes" /></a>
+                    <figcaption>
+                        <div class="icon_img">
+                            <i class="fa-solid fa-face-grin-stars" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="Marq_images">
+                            <H3>Pompadour</H3>
+                            <p>Salon de coiffure</p>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="#"><img class="img_projet2" src="assets/images/portfolio/04.jpg" alt="image lunettes" /></a>
+                    <figcaption>
+                        <div class="icon_img">
+                            <i class="fa-solid fa-face-grin-stars" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="Marq_images">
+                            <H3>Structurez-vous</H3>
+                            <p>Agence de recrutement</p>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="#"><img class="img_projet2" src="assets/images/portfolio/05.jpg" alt="image lunettes" /></a>
+                    <figcaption>
+                        <div class="icon_img">
+                            <i class="fa-solid fa-face-grin-stars" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="Marq_images">
+                            <H3>Shoppy Bag</H3>
+                            <p>fabricant sur mesure d'emballage</p>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="#"><img class="img_projet2" src="assets/images/portfolio/06.jpg" alt="image lunettes" /></a>
+                    <figcaption>
+                        <div class="icon_img">
+                            <i class="fa-solid fa-face-grin-stars" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="Marq_images">
+                            <H3>Ponts & Chaussées</H3>
+                            <p>Constructeur routier</p>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure>    
+                    <a href="#"><img class="img_projet2" src="assets/images/portfolio/07.jpg" alt="image lunettes" /></a>
+                    <figcaption>
+                        <div class="icon_img">
+                            <i class="fa-solid fa-face-grin-stars" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="Marq_images">  
+                            <H3>M-arc Electrique</H3>
+                            <p>Artisan électricien</p>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure>   
+                    <a href="#"><img class="img_projet2" src="assets/images/portfolio/08.jpg" alt="image lunettes" /></a>
+                    <figcaption>
+                        <div class="icon_img">
+                            <i class="fa-solid fa-face-grin-stars" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="Marq_images">
+                            <H3>Fournis-toi</H3>
+                            <p>Fabricant de fournitures de bureau</p>
+                        </div>
+                    </figcaption>
+                </figure> 
+            </article>
+        </section>
+
+        <section id="Contact">
+            <article id="Map_Contact" >
+                <!--carte map google-->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5248.442850050343!2d2.3472506756631923!3d48.87305529967541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25%20Rue%20d&#39;Hauteville%2C%2075010%20Paris!5e0!3m2!1sfr!2sfr!4v1720177687017!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <div class="filtre"></div>
+
+                <!--Formulaire de contact-->
+                <div id="formulaire_contact">
+                <form method="post " action="traitement.php">
+                    <h2><strong>Webagency SAS</strong></h2>
+                    <p>25 rue d'Hauteville 75010 Paris</br>Tel : +33102030405</p>
+                    
+                        <input type="text" name="nom" id="name" placeholder="Nom" required />
+                    
+                        <input type="email" name="email" id="email" placeholder="Email" required />
+
+                        <input type="text" name="sujet" id="sujet" placeholder="Sujet" required />
+                    
+                        <textarea name="message" id="message" rows="6" cols="40" placeholder="Votre message" required></textarea>
+                
+                        <button class="bouton_infos" name="button" type="button"><a href="#Acceuil">Envoyez</a></button>
+                    </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
